@@ -29,12 +29,11 @@ public class StringManipulator{
     
     }
 
-    public String Concat(String value, String value1 )
+    public String Concat(String value,int index1, int index2, String value1 )
     {
-        value=value.substring();
-        value1=value1.substring();
-        String newvalue=(value+value1).substring();
-        return newvalue;
+        String newvalue=value.substring(index1, index2);
+        System.out.println("newvalue" + newvalue);
+        return newvalue.concat(value1);
     }
 
 }

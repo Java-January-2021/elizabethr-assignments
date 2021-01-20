@@ -21,8 +21,8 @@ public class StringManipulatorTesting {
         System.out.println(d); // 2
         System.out.println(e); // null
 
-        String word = manipulator.concatSubstring("Hello", 1, 2, "world");
-        System.out.println(word); // eworld
+        String word2 = manipulator.Concat("Hello", 1, 2, "world");
+        System.out.println(word2); // eworld
 
             }
 
